@@ -19,3 +19,5 @@ model.save('model.bin')
 # load model
 new_model = Word2Vec.load('model.bin')
 print(new_model)
+
+print(new_model.wv.most_similar(positive='sentence'))
