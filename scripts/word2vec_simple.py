@@ -15,9 +15,9 @@ print(words)
 # access vector for one word
 print(model['sentence'])
 # save model
-model.save('model.bin')
-# load model
-new_model = Word2Vec.load('model.bin')
-print(new_model)
+# model.save('model.bin')
+# # load model
+# new_model = Word2Vec.load('model.bin')
+# print(new_model)
 
-print(new_model.wv.most_similar(positive='sentence'))
+# print(new_model.wv.most_similar(positive='sentence'))
